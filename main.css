@@ -1,12 +1,3 @@
-* {
-  box-sizing: border-box;
-}
-
-body {
-  font-family: "Montserrat", sans-serif;
-  margin: 0;
-}
-
 #product-overview {
   background: url("freedom.jpg");
   width: 100%;
@@ -58,65 +49,57 @@ body {
   padding: 5px;
 }
 
-.main-header {
-  background: #2ddf5c;
-  width: 100%;
-  padding: 8px 16px;
-}
-
-.main-header > div {
-  display: inline-block;
-  vertical-align: middle;
-}
-
-.main-header__brand {
+.plan__title {
   color: #0e4f1f;
-  text-decoration: none;
-  font-weight: bold;
-  font-size: 22px;
 }
 
-.main-nav {
-  display: inline-block;
-  width: calc(100% - 74px);
-  text-align: right;
-  vertical-align: middle;
+.plan__price {
+  color: #858585;
 }
 
-.main-nav__items {
-  margin: 0;
-  padding: 0;
-  list-style: none;
-}
-
-.main-nav__item {
-  display: inline-block;
-  margin: 0 16px;
-}
-
-.main-nav__item a {
-  text-decoration: none;
+.plan--highlighted .plan__price {
   color: #0e4f1f;
-  font-weight: bold;
-  padding: 3px 0;
 }
 
-.main-nav__item a:hover,
-.main-nav__item a:active {
+.plan--highlighted .plan__title {
   color: white;
-  border-bottom: 5px solid white;
 }
 
-.main-nav__item--cta a {
-  color: white;
+#marketing {
   background: #ff1b68;
-  padding: 8px 16px;
-  border-radius: 8px;
+  margin-top: 80px;
+  padding: 16px;
 }
 
-.main-nav__item--cta a:hover,
-.main-nav__item--cta a:active {
-  color: #ff1b68;
-  background: white;
-  border: none;
+#marketing .section-title {
+  color: white;
+}
+
+.marketing__items {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  text-align: center;
+}
+
+.marketing__item {
+  display: inline-block;
+  width: 30%;
+  vertical-align: top;
+}
+
+.marketing__image {
+  background: #ffcede;
+  width: 128px;
+  border: 2px solid #424242;
+  border-radius: 50%;
+  height: 128px;
+  margin: 0 auto;
+}
+
+.marketing__description {
+  text-align: center;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
 }
