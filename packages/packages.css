@@ -1,0 +1,74 @@
+/* default margin for content in main */
+main {
+  padding-top: 32px;
+}
+
+.clearfix {
+  clear: both;
+}
+
+/* Plan section styles */
+.package {
+  border: 4px solid #0e4f1f;
+  margin: 16px 0;
+  width: 80%;
+  border-left: 0;
+}
+
+#plan-one {
+  background-color: rgba(213, 255, 220, 0.95);
+}
+
+#plan-two {
+  background-color: rgba(234, 254, 237, 0.95);
+  float: right;
+  border-right: none;
+  border-left: 4px solid #0e4f1f;
+  text-align: right;
+}
+
+#plan-two:hover {
+  border-color: #ff5454;
+}
+
+#plan-three {
+  background-color: rgba(14, 79, 31, 0.95);
+}
+
+.package a {
+  text-decoration: none;
+  color: inherit;
+  display: block;
+  padding: 32px;
+}
+
+.package:hover,
+.package:active {
+  border-color: #ff5454;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+/* Plan section elemtent Styles */
+.plan-title {
+  color: black;
+}
+
+#plan-three .plan-title {
+  color: white;
+}
+
+#plan-three .plan-subtitle {
+  color: #bbb;
+}
+
+.plan-subtitle {
+  color: #979797;
+}
+
+.plan-description {
+  border: 1px solid #0e4f1f;
+  background: white;
+  color: #0e4f1f;
+  padding: 16px;
+  font-size: 20px;
+}
